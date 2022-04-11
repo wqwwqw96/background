@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自我介绍</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+    <!--整体布局-->
+    <div class="container main-bgc">
+      <!--首页加载框-->
+      <div id="load" class="loader"></div>
+      <!--左侧个人信息框-->
+      <div class="container-info container-signup">
+        <div class="info-left">
+          <!--头像设置-->
+          <div class="user">
+            <div class="frame"></div>
+            <img class="img-cover" src="./img/qq头像.jpg" />
+          </div>
+           <!--内容字体设置-->
+          <h2 class="info-title">名字越长防御就越强</h2>
+          
+          <div class="info-my ">年龄:<span>25</span></div>
+          <div class="info-my " style="margin-top: 50px;">住址:<span>重庆</span></div>
+          <div class="info-my "style="margin-top: 100px;">职业:<span>骁骑</span></div>
+        </div>
+      </div>
+      <!--简历信息框-->
+      <div class="container-info container-signin">
+        <div class="info-right">
+          <h2 class="info-title">个人简历:</h2>
+          <div><span></span></div>
+          <div><span></span></div>
+          <div><span></span></div>
+        </div>
+      </div>
+      <!--动态覆盖-->
+      <div id="container_move" class="container-over">
+        <div class="over">
+          <div id="over-left" class="over-panel clearfix">
+            <button id="btn1" class="btn">下一页</button>
+          </div>
+          <div id="over-right" class="over-panel clearfix">
+            <button id="btn2" class="btn">上一页</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
